@@ -1,0 +1,69 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+
+h1, h2, h3 {
+	color: 	#a2a2a2;
+}
+
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px; }
+
+h1 { font-size: 50px; }
+
+
+.raceTrack {
+	height: 300px;
+	width: 100%;
+	margin-top: 20px;
+}
+#car1 {
+color:#ffebf7 ;
+position: absolute;
+z-index: 1;
+height: 250px;
+left: 0;
+margin-top: -32px;
+
+}
+
+#car2 {
+	color:#ffebf7 ;
+	position: absolute;
+	z-index: 1;
+	height: 250px;
+	left: 0;
+	margin-top: 110px;
+	
+}
+.finish {
+	position: absolute;
+	z-index: 1;
+	height: 250px;
+	left: 0;
+	margin-top: 40px;
+	margin-left: 515px;
+}
+.num {
+	color: white;
+	position: absolute;
+	z-index: 1;
+	font-size: 200px;
+	left: 0;
+	margin-top: 58px;
+	margin-left: 615px;
+
+}
+.red {
+	color: red;
+}
+
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
